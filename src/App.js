@@ -37,7 +37,7 @@ export default function App() {
   return (
     <Suspense fallback={<LoadingIndicator />}>
       <ThemeProvider theme={theme}>
-        <CssBaseline />
+       <CssBaseline />
         <ConnectionProvider>
           <WalletProvider>
             <SnackbarProvider maxSnack={5} autoHideDuration={8000}>
